@@ -4,18 +4,16 @@ namespace DataStructures
 {
     class List
     {
+        public enum FavoriteColor
+        {
+            Green = 0x23432, 
+            Black = 0x2341, 
+            Blue = 0x23492, 
+            Pink = 082343
+        }
         public List()
         {
-            List<string> Ids = new List<string>();
-            Ids.Add("Sunwarul");
-            Ids.Add("Rashed");
-            Ids.Add("Pulok");
-            Ids.Add("Sujohn");
-
-            foreach (string Id in Ids)
-            {
-                System.Console.WriteLine(Id);
-            }
+            System.Console.WriteLine(FavoriteColor.Pink);
         }
     }
 }
