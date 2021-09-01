@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CSharpProgramming": {
+      "commandName": "Project",
+      "remoteDebugEnabled": false
+    }
+  }
+}

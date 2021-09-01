@@ -3,10 +3,10 @@ using Xunit;
 
 namespace CSharpProgramming.Tests
 {
-    public class UnitTest1
-    {
+    public class ConsolePrintTests
+    {   
         [Fact]
-        public void Test1()
+        public void PrintHelloWorldOnScreen()
         {
 
         }
