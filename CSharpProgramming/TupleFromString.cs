@@ -4,7 +4,7 @@ namespace CSharpProgramming
 {
     class TupleFromString
     {
-        public (int,int) CreateTupleFromString(string str)
+        public (int, int) CreateTupleFromString(string str)
         {
             string[] arr = str.Split(" ");
             int mX = Convert.ToInt16(arr[0]);
